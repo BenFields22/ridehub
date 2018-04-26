@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import types from 'prop-types'
+
+
+import App from './components/App';
 
 ReactDOM.render(
-	<h2>This is the header 1</h2>,
+	<App initialContests={window.initialData.contests} />,
 	document.getElementById('root')
 );
 
