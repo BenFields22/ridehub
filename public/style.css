@@ -8,3 +8,7 @@
     background-color: #eee; }
   .ContestPreview .contest-name {
     padding: 0.5em; }
+
+.leaflet-container {
+  height: 600px;
+  width: 100%; }
